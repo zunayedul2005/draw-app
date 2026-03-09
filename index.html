@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="lib/p5.min.js"></script>
+    <!--the labrary link added to can have the pdf button working.-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="sketch.js"></script>
+
+    <!-- add extra scripts below -->
+    <script src="toolbox.js"></script>
+    <script src="colourPalette.js"></script>
+    <script src="helperFunctions.js"></script>
+
+    <script src="freehandTool.js"></script>
+    <script src="eraserTool.js"></script>
+    <script src="lineToTool.js"></script>
+    <script src="mirrorDrawTool.js"></script>
+    <script src="sprayCanTool.js"></script>
+    <script src="Rect&Ellipse.js"></script>
+    <script src="Stamp.js"></script>
+    <script src="Startrail.js"></script>
+    <script src="flood.js"></script>
+    <script src ="blur.js"></script>
+   <script src="Spirograph.js"></script>
+   <script src="textTool.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  	<div class="wrapper">
+      <div class="box header">My Drawing App
+
+        <button id="clearButton">Clear</button>
+        <button id="saveImageButton">Save Image</button>
+        <button id="loadImage">Insert Image</button>
+        <button id="PDFbutton">Save PDF</button>
+      </div>
+      <div class="box" id="sidebar"></div>
+      <div id="content"></div>
+      <div class="box colourPalette"></div>
+      <div class="box options"></div>
+	</div>
+  </body>
+</html>
